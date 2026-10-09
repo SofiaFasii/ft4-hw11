@@ -1,0 +1,20 @@
+.bomb {
+    font-size: 60px;
+    width: fit-content;
+}
+.blink {
+    animation: blink 0.2s infinite alternate;
+}
+@keyframes blink {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0.2;
+    }
+}
+.btn2.ready {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
