@@ -1,0 +1,25 @@
+.bomb {
+  width: fit-content;
+  font-size: 60px;
+}
+
+.blink {
+  animation: .2s infinite alternate blink;
+}
+
+@keyframes blink {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: .2;
+  }
+}
+
+.btn2.ready {
+  color: #fff;
+  cursor: pointer;
+  background-color: green;
+}
+/*# sourceMappingURL=ft4-hw11.2cdaf7bc.css.map */
